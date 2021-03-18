@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/sc_explore" android:enabled="true">
+        <intent android:targetPackage="com.tooskagroup1400.taghvimfarsi" android:action="COMPASS_SHORTCUT" android:targetClass="com.tooskagroup1400.taghvimfarsi.view.activity.MainActivity" />
+    </shortcut>
+    <shortcut android:icon="@drawable/sc_swap_vertical_circle" android:enabled="true">
+        <intent android:targetPackage="com.tooskagroup1400.taghvimfarsi" android:action="CONVERTER_SHORTCUT" android:targetClass="com.tooskagroup1400.taghvimfarsi.view.activity.MainActivity" />
+    </shortcut>
+</shortcuts>

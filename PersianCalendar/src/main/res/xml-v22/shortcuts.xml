@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/sc_explore" android:enabled="true" android:shortcutId="COMPASS" android:shortcutShortLabel="@string/compass_short_label" android:shortcutLongLabel="@string/compass_long_label" android:shortcutDisabledMessage="@string/compass_disabled_message">
+        <intent android:targetPackage="com.tooskagroup1400.taghvimfarsi" android:action="COMPASS_SHORTCUT" android:targetClass="com.tooskagroup1400.taghvimfarsi.view.activity.MainActivity" />
+    </shortcut>
+    <shortcut android:icon="@drawable/sc_swap_vertical_circle" android:enabled="true" android:shortcutId="CONVERTER" android:shortcutShortLabel="@string/converter_short_label" android:shortcutLongLabel="@string/converter_long_label" android:shortcutDisabledMessage="@string/converter_disabled_message">
+        <intent android:targetPackage="com.tooskagroup1400.taghvimfarsi" android:action="CONVERTER_SHORTCUT" android:targetClass="com.tooskagroup1400.taghvimfarsi.view.activity.MainActivity" />
+    </shortcut>
+</shortcuts>
